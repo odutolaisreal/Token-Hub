@@ -1,0 +1,69 @@
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  overflow-x: hidden;
+}
+#mymodal {
+  display: none;
+  width: fit-content;
+  outline: none;
+  border: none;
+  z-index: 1000;
+  background: #ffff;
+  padding: 10px 3rem 4rem 2rem;
+  position: relative;
+  top: -80vh;
+  max-width: 100%;
+  border-radius: 25px;
+}
+#overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  -webkit-animation: popup 1s ease-in-out 5s forwards;
+  animation: popup 1s ease-in-out 5s forwards;
+}
+
+button {
+  cursor: pointer;
+}
+#close-popup {
+  cursor: pointer;
+}
+ input {
+  border-radius: 10px;
+  color: rgb(48, 47, 47);
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 2%;
+  border: 1px solid #aaaaaa;
+  width: 100%;
+  background: #fff;
+  outline: none;
+  height: 15vh;
+}
+
+.form-btn button {
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 0.61rem;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  font-size: 20px;
+  width: 100%;
+  background-color: #090979;
+} 
+.wallet-type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
